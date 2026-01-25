@@ -23,3 +23,8 @@ app_router.include_router(
     tags=['Depression']
 )
 
+app_router.include_router(
+    depression_router,
+    prefix='/depression',
+    tags=['Depression']
+)
